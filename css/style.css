@@ -559,6 +559,11 @@ footer p a span {
 	color: #2D2D2D;		
 }
 
+.modal-body h3 {
+	margin: 40px 40px;
+	color: #2D2D2D;		
+}
+
 .modal-works {
 font-size: 11px;
     letter-spacing: 1px;
