@@ -959,9 +959,9 @@ if (typeof jQuery === 'undefined') {
   }
 
   Modal.prototype.show = function (_relatedTarget) {
-    var that = this
+	var that = this
     var e    = $.Event('show.bs.modal', { relatedTarget: _relatedTarget })
-
+	
     this.$element.trigger(e)
 
     if (this.isShown || e.isDefaultPrevented()) return
